@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+
+
+body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logo{
+  color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+Nav{
+  font-size: 18px;
+}
+
+/* card css */
+/* .service {
+  position: absolute;
+  left: -800px;
+  animation: card_animation 1.5s ease-in-out 1.5s forwards;
+} */
+
+/* @keyframes card_animation {
+  0% {
+    left: -800px;
+    opacity: 0;
+  }
+  100% {
+    left: 7%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.service1 {
+  position: absolute;
+  left: -800px;
+  animation: card_animation1 1.5s ease-in-out 1.5s forwards;
+  top: 135%;
+}
+@keyframes card_animation1 {
+  0% {
+    left: -800px;
+    opacity: 0;
+  }
+  
+  100% {
+    left: 7%;
+  }
+} */
+
+
+
+/* img css */
+/* .img{
+  position: absolute; */
+  /* right: -1200px; */
+  /* animation: img_animation 1.5s ease-in-out 1.5s forwards; */
+/* }
+@keyframes img_animation {
+  0% {
+    right: -1200px;
+    opacity: 0;
+
+  }
+  100% {
+    right: -600px;
+  }
+} */
+
+/* .img1{
+  position: absolute;
+  right: -1200px;
+  animation: img_animation1 1.5s ease-in-out 1.5s forwards;
+  top: 130%;
+
+} */
+/* @keyframes img_animation1 {
+  0% {
+    right: -1200px;
+    opacity: 0;
+
+  }
+  100% {
+    right: -600px;
+  } */
+/* } */
+
+
+.bg-img{
+  height: 55vh;
+  border: none;
+}
+.moto{
   color: white;
+  font-style: italic;
+   font-size: 2.3em;
+}
+.main-title{
+  display: flex;
+  align-items: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+
+@media only screen and (max-width: 600px){
+  .moto{
+    font-size: 16px;
+    font-weight: 700;
+
+  }
+  .img{
+    width: 60%;
+  }
+.content{
+  font-size: 12px;
+  padding: 0;
+ 
+}
+.description{
+  padding-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+}  
